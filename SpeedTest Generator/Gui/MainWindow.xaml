@@ -1,0 +1,23 @@
+﻿<Window x:Class="SpeedTest_Generator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SpeedTest Generator" Height="350" Width="525" Loaded="Window_Loaded">
+    <Grid>
+        <DockPanel Margin="0,41,0,0">
+            <TreeView HorizontalAlignment="Stretch" Margin="0" Name="ServersTree" VerticalAlignment="Stretch" PreviewMouseRightButtonDown="ServersTree_PreviewMouseRightButtonDown" ContextMenuOpening="ServersTree_ContextMenuOpening">
+                <TreeView.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="Generate" Click="MenuItem_Click" />
+                    </ContextMenu>
+                </TreeView.ContextMenu>
+                <TreeViewItem Header="Loading" />
+            </TreeView>
+        </DockPanel>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="51,12,0,0" Name="PingText" VerticalAlignment="Top" Width="64" Text="25" />
+        <Label Content="Ping" Height="28" HorizontalAlignment="Left" Margin="12,10,0,0" Name="label1" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="191,12,0,0" Name="DownloadText" VerticalAlignment="Top" Width="64" Text="10000" />
+        <Label Content="Download" Height="28" HorizontalAlignment="Left" Margin="121,10,0,0" Name="label2" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="315,12,0,0" Name="UploadText" VerticalAlignment="Top" Width="64" Text="20000" />
+        <Label Content="Upload" Height="28" HorizontalAlignment="Left" Margin="261,10,0,0" Name="label3" VerticalAlignment="Top" />
+    </Grid>
+</Window>

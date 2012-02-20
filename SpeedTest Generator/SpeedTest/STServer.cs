@@ -21,7 +21,7 @@ namespace SpeedTest
 	 * url2="http://speedtest.ppo.fi/speedtest/upload.php" 
 	 * bigsamples="1"/> 
 	*/
-	public class SpeedTestServer
+	public class STServer
 	{
 		public int Id {get;set;}
 		

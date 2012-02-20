@@ -15,7 +15,7 @@ namespace UnitTests
 		[TestMethod]
 		public void TestServers()
 		{
-			Assert.IsNotNull(SpeedTestServers.Parse(XmlReader.Create(new StringReader(Properties.Resources.Servers))));
+			Assert.IsNotNull(STServers.Parse(Properties.Resources.Servers));
 		}
 	}
 }
