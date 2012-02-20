@@ -3,16 +3,48 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedTest Generator", "SpeedTest Generator\SpeedTest Generator.csproj", "{4460BA75-00F4-4AB4-AC19-D0BA97BB973A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{C4AEE0FC-A6DD-4310-8499-1929562D9AC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EA46BE0D-62A0-4CE0-91B1-295977171F57}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		SpeedTest Generator.vsmdi = SpeedTest Generator.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = SpeedTest Generator.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4460BA75-00F4-4AB4-AC19-D0BA97BB973A}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{4460BA75-00F4-4AB4-AC19-D0BA97BB973A}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{4460BA75-00F4-4AB4-AC19-D0BA97BB973A}.Debug|Mixed Platforms.Build.0 = Debug|x86
 		{4460BA75-00F4-4AB4-AC19-D0BA97BB973A}.Debug|x86.ActiveCfg = Debug|x86
 		{4460BA75-00F4-4AB4-AC19-D0BA97BB973A}.Debug|x86.Build.0 = Debug|x86
+		{4460BA75-00F4-4AB4-AC19-D0BA97BB973A}.Release|Any CPU.ActiveCfg = Release|x86
+		{4460BA75-00F4-4AB4-AC19-D0BA97BB973A}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{4460BA75-00F4-4AB4-AC19-D0BA97BB973A}.Release|Mixed Platforms.Build.0 = Release|x86
 		{4460BA75-00F4-4AB4-AC19-D0BA97BB973A}.Release|x86.ActiveCfg = Release|x86
 		{4460BA75-00F4-4AB4-AC19-D0BA97BB973A}.Release|x86.Build.0 = Release|x86
+		{C4AEE0FC-A6DD-4310-8499-1929562D9AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4AEE0FC-A6DD-4310-8499-1929562D9AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4AEE0FC-A6DD-4310-8499-1929562D9AC2}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C4AEE0FC-A6DD-4310-8499-1929562D9AC2}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C4AEE0FC-A6DD-4310-8499-1929562D9AC2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C4AEE0FC-A6DD-4310-8499-1929562D9AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4AEE0FC-A6DD-4310-8499-1929562D9AC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4AEE0FC-A6DD-4310-8499-1929562D9AC2}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C4AEE0FC-A6DD-4310-8499-1929562D9AC2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C4AEE0FC-A6DD-4310-8499-1929562D9AC2}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
