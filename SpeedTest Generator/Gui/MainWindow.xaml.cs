@@ -81,11 +81,11 @@ namespace SpeedTest_Generator
 			}
 		}
 
-		public void DisplayResults(int id)
+		public void DisplayResults(Int64 id)
 		{
 			if (!Dispatcher.CheckAccess())
 			{
-				Dispatcher.BeginInvoke(new Action<int>(DisplayResults), id);
+				Dispatcher.BeginInvoke(new Action<Int64>(DisplayResults), id);
 				return;
 			}
 
